@@ -1,0 +1,12 @@
+###
+ # @Author: Marshall
+ # @Date: 2023-05-06 10:38:22
+ # @LastEditors: Marshall
+ # @LastEditTime: 2023-05-06 10:46:33
+ # @Description: 
+ # @FilePath: /wuxian-monorepo-template/.husky/pre-commit
+### 
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx --no -- lint-staged
